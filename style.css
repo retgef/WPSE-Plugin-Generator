@@ -1,0 +1,40 @@
+#wrap{
+    width:500px;
+    margin:0 auto;
+}
+p{
+   width: 300px;
+   clear: left;
+   margin: 0;
+   padding: 5px 0 8px 0;
+   padding-left: 155px; /*width of left column containing the label elements*/
+   border-top: 1px dashed gray;
+   height: 1%;
+}
+   
+label{
+   font-weight: bold;
+   float: left;
+   margin-left: -155px; /*width of left column*/
+   width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+   
+input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+   width: 275px;
+}
+kbd{
+   display:block;
+}
+em{
+   font-family: Courier, sans-serif;
+   font-size:12px;
+   font-style:normal;
+   display:block;
+   margin-bottom:10px;
+}
+span{
+   cursor: pointer;
+}
+.error{
+   color:red;
+}
