@@ -1,13 +1,13 @@
 <?php
 
 class WP_Plugin_Generator{
-    protected $id = 'coderrr';
-    protected $name = 'Foo Bar';
+    protected $id = 'wpse';
+    protected $name = 'Default Plugin Name';
     protected $description = '';
-    protected $uri = 'http://coderrr.com';
+    protected $uri = 'http://yoursite.com';
     protected $version = '0.1';
-    protected $author = 'Brian Fegter';
-    protected $author_uri = 'http://wordpress.stackexchange.com/users/4793/brian-fegter';
+    protected $author = 'Your Name';
+    protected $author_uri = 'http://wordpress.stackexchange.com/users/USER_ID/USER_NAME';
     protected $license = 'GPL2';
     protected $actions;
     protected $filters;
