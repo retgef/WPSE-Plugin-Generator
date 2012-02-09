@@ -46,7 +46,6 @@ class WP_Plugin_Generator{
     
     protected function export_file(){
         header('Content-type: application/php charset=utf-8');
-        header('Content-Disposition: attachment; filename="test.php"');
         header('Content-Disposition: attachment; filename="'.$this->id.'.php"');
         echo $this->file_contents;
     }
